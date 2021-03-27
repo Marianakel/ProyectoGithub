@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/*Hoja de estilos del proyecto Git asociada a index.html*/
+
+body{
+	font-size:1.4rem;	
+}
+
+h1{
+	text-align:center;
+	background-color:#82E0AA;
+	margin:10px;
+	width:650px;
+	border-radius:14px;
+}
+
+h2{
+	font-family:'Ubuntu', sans-serif;
+	margin:5px;
+	color:#82E0AA;
+}
+
+ul{
+	font-weight:bold;
+	font-size:1.1rem;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title></title>
+  <meta name="author" content="Mariano de la Vara"/>
+  <link href="estilos.css" rel="stylesheet">
+ </head>
+
+<body>
+<!-- este comentario está escrito desde la propia aplicación de github -->
+	
+<h1>¿Cómo utilizar Git?</h1>
+
+<h2>Principios básicos de Git</h2>
+
+<p>Git es un sistema de control de versiones gratuito y de código abierto, creado originalmente por Linus Torvalds en 2005. 
+A diferencia de los antiguos sistemas centralizados de control de versiones, como SVN y CVS, Git está distribuido: cada desarrollador tiene el 
+historial completo de su repositorio de código de manera local. De este modo, el clon inicial del repositorio es más lento, pero las operaciones 
+posteriores, como las confirmaciones, objeciones, diferencias, fusiones y registros, son mucho más rápidas.</p>
+
+<p>Git incluye las funcionalidades de crear ramas y fusiones, y reescribir historiales de repositorios, lo cual ha dado como resultado muchas 
+herramientas y flujos de trabajo innovadores y eficaces. Las solicitudes de incorporación de cambios son una de esas populares herramientas 
+con las que los equipos pueden colaborar en las ramas de Git y revisar con eficacia el código de los demás. Git es el sistema de control de 
+versiones más utilizado en el mundo hoy en día y se le considera el estándar actual de desarrollo de software.</p>
+
+<h2>Funcionamiento de Git</h2>
+
+<p>Básicamente, Git funciona del siguiente modo:</p>
+		     
+    <ol>
+		<li>Crea un “repositorio” (proyecto) con una herramienta de alojamiento de git (como Bitbucket o Github).</li>
+        <li>Copia (o clona) el repositorio en tu equipo local.</li>
+        <li>Añade un archivo en tu repositorio local y “confirma” (guarda) los cambios.</li>
+        <li>“Envía” tus cambios a la rama maestra.</li>
+        <li>Realiza un cambio en tu archivo con una herramienta de alojamiento de git y confírmalo.</li>
+        <li>“Incorpora” los cambios en tu equipo local.</li>
+		<li>Crea una “rama” (versión), haz un cambio y confírmalo.</li>			
+        <li>Abre una “solicitud de incorporación de cambios” (propón cambios en la rama maestra).</li>			
+        <li>“Fusiona” tu rama con la rama maestra.</li>
+    </ol>
+	
+<h2>¿Qué es Github?</h2>
+
+<p>Es una plataforma de desarrollo colaborativo, o también llamada la red social de los desarrolladores donde se alojan los repositorios, 
+el código se almacena de forma pública pero se puede hacer privado con una cuenta de pago. No hay que confundirla con GIT, son cosas diferentes.</p>	
+
+<h2>Primer uso de Git Bash</h2>
+<p>Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida:</p>
+   <ul>
+       <li>git config --global user.name "Your-Full-Name"</li>
+	   <li>git config --global user.email "your-email-address"</li>
+	   <li>git config --global color.ui auto</li>
+	   <li>git config --list</li>
+   </ul>  
+<p>Comando para la configuración inicial de un repositorio nuevo. Al ejecutar este comando, se creará un nuevo subdirectorio . git en tu directorio 
+de trabajo actual. También se creará una nueva rama maestra. </p>  
+	<ul>
+       <li>git init</li>
+	</ul>
+<p>Comando para recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade recursivamente los archivos 
+que están dentro de él.(Agregar el contenido del archivo al índice) </p>		
+	<ul>
+       <li>git add</li>
+	</ul>
+<p>Comando para registrar cambios en el repositorio</p>	
+	<ul>
+       <li>git commit</li>
+	</ul>
+<p>Comando para obtener un resumen de qué archivos tienen cambios que están preparados para la próxima confirmación.</p>
+	<ul>
+       <li>git status</li>
+	</ul>
+<p>Comando para mostrar el historial de cambios del repositorio.</p>	
+	<ul>
+       <li>git log</li>
+	</ul>
+<p>Comando para mostrar cambios entre confirmaciones, confirmaciones y árbol de trabajo, etc.</p>
+	<ul>
+       <li>git diff</li>
+	</ul>	
+<p>Comando para cambiar de rama o restaurar archivos de árbol de trabajo</p>
+	<ul>
+       <li>git checkout</li>
+	</ul>		
+</body>
+</html>

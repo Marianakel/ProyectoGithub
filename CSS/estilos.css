@@ -4,12 +4,23 @@
 body{
 	font-size:1.4rem;	
 }
-
+main{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:no wrap;
+	
+}
+article{
+	max-width:25%;
+	border:3px solid black;
+	border-radius:14px;
+	padding:8px;
+}
 h1{
 	text-align:center;
 	background-color:#82E0AA;
 	margin:10px;
-	width:650px;
+	width:auto;
 	border-radius:14px;
 }
 
@@ -24,9 +35,14 @@ ul{
 	font-size:1.1rem;
 }
 img{
-	width:500px;
-	height:200px;
+	max-width:100%;
+	height:auto;
 }
 footer{
 	text-align:center;
+}
+input{
+	background-color:salmon;
+	font-weight:bold;
+	border-radius:14px;
 }
